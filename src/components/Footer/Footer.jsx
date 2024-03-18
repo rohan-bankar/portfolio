@@ -37,7 +37,7 @@ export default function Footer() {
                 <div className="sm:flex sm:items-center sm:justify-between text-lg font-bold">
                     <span className={`text-sm sm:text-center ${themeMode === 'light' ? 'text-black' : 'text-white'}`}>
                        Copyright © 2024 : 
-                        <a href="" className=" underline text-sky-800 ml-1">
+                        <a href="" className=" underline text-sky-800 hover:text-sky-500 ml-1">
                              Rohan Bankar
                         </a>
                     </span>

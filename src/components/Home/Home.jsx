@@ -12,7 +12,7 @@ function Home() {
     const data = [
         {title:"Web Base Ledgering Portal",description:"web application for colleges to manage financial records and streamline approval process.",link:"https://github.com/rohan-bankar/web-based-ledgering-portal"},
         {title:"Web Base Ledgering Portal",description:"web application for colleges to manage financial records and streamline approval process.",link:"https://github.com/rohan-bankar/web-based-ledgering-portal"},
-        {title:"Web Base Ledgering Portal",description:"web application for colleges to manage financial records and streamline approval process.",link:"https://github.com/rohan-bankar/web-based-ledgering-portal"}
+        {title:"Web Base Ledgering Portal",description:"web application for colleges to manage financial records .",link:"https://github.com/rohan-bankar/web-based-ledgering-portal"}
     ];
   return (
     <>
@@ -71,7 +71,7 @@ function Home() {
         </div>
 
         <div className='text-white py-20'>
-            <p className={`text-4xl text-center font-bold ${themeMode === 'light' ? 'text-black' : 'text-white'}`}>Projects</p>
+            <p className={`lg:text-4xl sm:text-4xl max-sm:text-3xl text-center font-bold ${themeMode === 'light' ? 'text-black' : 'text-white'}`}>Projects</p>
             <div id='project' className='flex lg:flex-row max-sm:flex-col lg:justify-evenly mt-10'>
                 {data.map((item,index)=>(
                     <Card key={index} title={item.title} description={item.description} link={item.link}/>
