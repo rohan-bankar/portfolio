@@ -22,8 +22,6 @@ export default function Header({toggleTheme}) {
             duration:800,
             smooth: "easeInOutQuart",
         })
-
-        setIsMenuOpen(false);
     }
     return (
         <header className= "shadow sticky z-50 top-0 ">
@@ -34,24 +32,24 @@ export default function Header({toggleTheme}) {
                     </Link>
                     <div className="flex items-center lg:order-2 ">
         
-                        <button className={`p-1 mr-2 rounded-full text-sky-500 ${themeMode === 'light' ? 'hover:bg-slate-200' : 'hover:bg-slate-700'}  border border-solid border-gray-300`} onClick={toggleTheme}>
+                        <button className={`p-1 mr-2 rounded-full text-sky-500 ${themeMode === 'light' ? 'hover:bg-slate-200 border-gray-300' : 'hover:bg-slate-700 border-gray-700'}  border border-solid `} onClick={toggleTheme}>
                             <FontAwesomeIcon icon={themeMode === 'dark' ? "fa-regular fa-moon" : "fa-regular fa-sun"} size="xl" />
                         </button>
                         
-                        <Link to="https://github.com/rohan-bankar" className={` p-1 rounded-full text-sky-500 ${themeMode === 'light' ? 'hover:bg-slate-200' : 'hover:bg-slate-700'} border border-solid border-gray-300`}>
+                        <Link to="https://github.com/rohan-bankar" className={` p-1 rounded-full text-sky-500 ${themeMode === 'light' ? 'hover:bg-slate-200 border-gray-300 ' : 'hover:bg-slate-700 border-gray-700'} border border-solid `}>
                         <FontAwesomeIcon icon="fa-brands fa-github" size="xl" />
                         </Link>
 
-                        <div className='max-md:hidden lg:hidden max-sm:block ml-5'>
+                        <div className={`max-md:hidden lg:hidden max-sm:block ml-5 border border-solid ${themeMode === 'light' ? 'border-gray-300' : 'border-gray-700'} p-1 rounded-lg`}>
                         <FontAwesomeIcon icon="fa-solid fa-bars" size="xl" onClick={toggleMenu} />
                         </div>
         
                     </div>
                     <div
-                        className={`justify-between items-center w-full lg:flex lg:w-auto lg:order-1 transition-all duration-800 ${isMenuOpen ? 'opacity-100 h-auto' : 'opacity-0 h-0'}`}
+                        className={`justify-between items-center w-full lg:flex lg:w-auto lg:order-1  ${isMenuOpen ? 'block' : 'hidden'}`}
                         id="mobile-menu-2"
                     >
-                        <ul className={`flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 max-sm:text-center sm:text-center overflow-hidden ${isMenuOpen ? 'max-h-screen' : 'max-h-0'}`}>
+                        <ul className={`flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 max-sm:text-center sm:text-center`}>
                             <li>
                                 <NavLink to="/"
                                 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
