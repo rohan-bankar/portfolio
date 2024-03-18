@@ -4,8 +4,8 @@ function Card(props) {
   const{themeMode} = useTheme();
   return (
     <>
-    <div className='lg:h-[200px] lg:w-[400px] rounded-md border-solid border-gray-300 hover:shadow-md hover:shadow-sky-500 border p-2 text-center max-sm:mb-5 sm:mx-2 '>
-        <h1 className={`text-xl font-bold ${themeMode === 'light' ? 'text-black' : 'text-white'}`}>{props.title}</h1>
+    <div className='lg:h-[220px] lg:w-[400px] rounded-md border-solid border-gray-300 hover:shadow-md hover:shadow-sky-500 border p-2 text-center max-sm:mb-5 sm:mx-2 '>
+        <h1 className={`text-xl font-bold mt-2 ${themeMode === 'light' ? 'text-black' : 'text-white'}`}>{props.title}</h1>
         <hr />
         <p className={`text-lg mt-5 font-thin ${themeMode === 'light' ? 'text-black' : 'text-white'}`}>{props.description}</p>
         <hr className='my-2' />

@@ -11,8 +11,8 @@ function Home() {
     const {themeMode} = useTheme();
     const data = [
         {title:"Web Base Ledgering Portal",description:"web application for colleges to manage financial records and streamline approval process.",link:"https://github.com/rohan-bankar/web-based-ledgering-portal"},
-        {title:"Web Base Ledgering Portal",description:"web application for colleges to manage financial records and streamline approval process.",link:"https://github.com/rohan-bankar/web-based-ledgering-portal"},
-        {title:"Web Base Ledgering Portal",description:"web application for colleges to manage financial records .",link:"https://github.com/rohan-bankar/web-based-ledgering-portal"}
+        {title:"Currency Converter",description:"A Currency Converter web app is a tool that allows users to convert between different currencies.",link:"https://github.com/rohan-bankar/Currency-Converter"},
+        {title:"To Do List",description:"A To-Do List web app is a productivity tool that helps users manage their tasks and organize their daily activities.",link:"https://github.com/rohan-bankar/TO-Do-List-Task1/tree/main/To%20do%20list"}
     ];
   return (
     <>
