@@ -19,10 +19,10 @@ function Home() {
     <div className={`lg:px-20 max-sm:px-6 sm:px-6 ${themeMode === 'light' ? 'bg-white' : 'bg-slate-900'}`}>
         <div className='flex flex-row justify-center max-sm:flex-col lg:py-24 max-sm:py-20 max-sm:text-center'>
             <div className=''>
-                <img src="./src/assets/Me.png" alt=""  className='w-96'/>
+                <img src="Me.png" alt=""  className='w-96'/>
             </div>
             <div className='relative lg:top-32 max-sm:top-25 sm:top-32'>
-            <h1 className={`${themeMode === 'light' ? 'text-black' : 'text-white'} font-bold lg:text-5xl sm:text-5xl max-sm:text-4xl `}>👋 <span className='text-sky-500'>I'm</span> Rohan</h1>
+            <h1 className={`${themeMode === 'light' ? 'text-black' : 'text-white'} font-bold lg:text-5xl sm:text-5xl max-sm:text-4xl `}> <span className='hand-wave-animation'>👋</span> <span className='text-sky-500'>I'm</span> Rohan</h1>
             <p className={`${themeMode === 'light' ? 'text-black' : 'text-white'} mt-3 `}>
                 a Developer and a Pro Gamer :)
             </p>

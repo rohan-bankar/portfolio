@@ -12,4 +12,22 @@
     body {
       font-family: 'IBM Plex Sans', sans-serif;
     }
+    .hand-wave-animation {
+      display: inline-block;
+      animation: wave 1s infinite;
+    }
+    @keyframes wave {
+      0%, 100% {
+        transform: translateX(0) rotate(0deg);
+      }
+      25% {
+        transform: translateX(-10px) rotate(-20deg);
+      }
+      50% {
+        transform: translateX(0) rotate(0deg);
+      }
+      75% {
+        transform: translateX(10px) rotate(20deg);
+      }
+    }
   }

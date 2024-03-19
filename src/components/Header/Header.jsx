@@ -95,7 +95,7 @@ export default function Header({toggleTheme}) {
                             </li>
 
                             <li>
-                                <a href="./src/assets/resume.pdf" className={`block py-2 pr-4 pl-3 duration-200 ${themeMode === 'light' ? 'text-black hover:bg-slate-100' : 'text-white lg:hover:bg-slate-800 '} border-b border-gray-100  rounded-xl lg:border-0 max-sm:border-b-0  sm:border-b-0 lg:p-1.5 font-bold`}>Resume</a>
+                                <a href="RohanBankar.pdf" className={`block py-2 pr-4 pl-3 duration-200 ${themeMode === 'light' ? 'text-black hover:bg-slate-100' : 'text-white lg:hover:bg-slate-800 '} border-b border-gray-100  rounded-xl lg:border-0 max-sm:border-b-0  sm:border-b-0 lg:p-1.5 font-bold`}>Resume</a>
                             </li>
                             
                         </ul>
