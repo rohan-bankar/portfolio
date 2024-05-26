@@ -17,19 +17,19 @@ export default function Footer() {
                 
                      <div className="flex mt-2 space-x-5 max-sm:justify-center sm:justify-center sm:mt-0 ">
                         <Link to="https://www.instagram.com/rohan_bankar_7/" className={`${themeMode === 'light' ? 'text-gray-500' : 'text-white'}`}>
-                        <FontAwesomeIcon className='transform hover:rotate-360 hover:-translate-y-full hover:scale-105 transition-transform duration-1000' icon="fa-brands fa-instagram" size="2x" />
+                        <FontAwesomeIcon className='custom-icon' icon="fa-brands fa-instagram" size="2x" />
                         </Link>
                         <Link to="mailto:rohanbankar011@gmail.com" className={`${themeMode === 'light' ? 'text-gray-500' : 'text-white'}`}>
-                        <FontAwesomeIcon className='transform hover:rotate-360 hover:-translate-y-full hover:scale-105 transition-transform duration-1000' icon="fa-regular fa-envelope" size="2xl" />
+                        <FontAwesomeIcon className='custom-icon' icon="fa-regular fa-envelope" size="2xl" />
                         </Link>
                         <Link to="https://twitter.com/Bankar2Rohan" className={`${themeMode === 'light' ? 'text-gray-500' : 'text-white'}`}>
-                        <FontAwesomeIcon className='transform hover:rotate-360 hover:-translate-y-full hover:scale-105 transition-transform duration-1000' icon="fa-brands fa-x-twitter" size="2xl" />
+                        <FontAwesomeIcon className='custom-icon' icon="fa-brands fa-x-twitter" size="2xl" />
                         </Link>
                         <Link to="https://github.com/rohan-bankar" className={`${themeMode === 'light' ? 'text-gray-500' : 'text-white'}`}>
-                        <FontAwesomeIcon className='transform hover:rotate-360 hover:-translate-y-full hover:scale-105 transition-transform duration-1000' icon="fa-brands fa-github" size="2xl" />
+                        <FontAwesomeIcon className='custom-icon' icon="fa-brands fa-github" size="2xl" />
                         </Link>
                         <Link to="https://www.linkedin.com/in/rohan-bankar/" className={`${themeMode === 'light' ? 'text-gray-500' : 'text-white'}`}>
-                        <FontAwesomeIcon className='transform hover:rotate-360 hover:-translate-y-full hover:scale-105 transition-transform duration-1000' icon="fa-brands fa-linkedin" size="2xl" />
+                        <FontAwesomeIcon className='custom-icon' icon="fa-brands fa-linkedin" size="2xl" />
                         </Link>
                     </div>
                 

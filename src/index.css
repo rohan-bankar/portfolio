@@ -31,3 +31,12 @@
       }
     }
   }
+
+  .custom-icon {
+    transition: transform 1s;
+  }
+  
+  .custom-icon:hover {
+    transform: rotate(360deg) translateY(-10px) translateX(5px) scale(1.3);
+  }
+  

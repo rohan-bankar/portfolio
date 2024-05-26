@@ -10,9 +10,9 @@ library.add(faSquareGithub,faSquareInstagram,faSquareXTwitter)
 function Home() {
     const {themeMode} = useTheme();
     const data = [
-        {title:"Web Base Ledgering Portal",description:"web application for colleges to manage financial records and streamline approval process.",link:"https://github.com/rohan-bankar/web-based-ledgering-portal"},
-        {title:"Currency Converter",description:"A Currency Converter web app is a tool that allows users to convert between different currencies.",link:"https://github.com/rohan-bankar/Currency-Converter"},
-        {title:"To Do List",description:"A To-Do List web app is a productivity tool that helps users manage their tasks and organize their daily activities.",link:"https://github.com/rohan-bankar/TO-Do-List-Task1/tree/main/To%20do%20list"}
+        {title:"Web Base Ledgering Portal",description:"web application for colleges to manage financial records and streamline approval process.",link:"https://github.com/rohan-bankar/web-based-ledgering-portal",linkName:"github link"},
+        {title:"To Do List",description:"A simple tool for time management with features like Authentication, Dark Mode, Cross-Platform app",link:"https://todo-frontend-bw4j.onrender.com",linkName:"website Link"},
+        {title:"Matrimonial website",description:"",link:"",linkName:"website Link"}
     ];
   return (
     <>
@@ -53,16 +53,19 @@ function Home() {
                         "Javascript",<br />
                         "CSS3",<br />
                         "HTML",<br />
+                        "Node.js"<br />
                     &#93;, <br />
                     "frameworks": &#91;<br />
                     "ReactJS",<br />
-                    "bootstrap"<br />
+                    "bootstrap,"<br />
+                    "ExpressJS"<br />
                     &#93;,<br /> 
                     "Ui-Libraries": &#91;<br />
                     "tailwindcss"<br />
                     &#93;, <br />
                     "DB": &#91;<br />
-                    "mySql"<br />
+                    "mySql",<br />
+                    "mongoDB"<br />
                     &#93;, <br />
                     "location": "Pune, MH, IND" <br />
                 </div>
@@ -74,7 +77,7 @@ function Home() {
             <p className={`lg:text-4xl sm:text-4xl max-sm:text-3xl text-center font-bold ${themeMode === 'light' ? 'text-black' : 'text-white'}`}>Projects</p>
             <div id='project' className='flex lg:flex-row max-sm:flex-col lg:justify-evenly mt-10'>
                 {data.map((item,index)=>(
-                    <Card key={index} title={item.title} description={item.description} link={item.link}/>
+                    <Card key={index} title={item.title} description={item.description} link={item.link} linkName={item.linkName}/>
                 ))}
             </div>
         </div>
