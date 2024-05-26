@@ -12,7 +12,7 @@ function Home() {
     const data = [
         {title:"Web Base Ledgering Portal",description:"web application for colleges to manage financial records and streamline approval process.",link:"https://github.com/rohan-bankar/web-based-ledgering-portal",linkName:"github link"},
         {title:"To Do List",description:"A simple tool for time management with features like Authentication, Dark Mode, Cross-Platform app",link:"https://todo-frontend-bw4j.onrender.com",linkName:"website Link"},
-        {title:"Matrimonial website",description:"",link:"",linkName:"website Link"}
+        {title:"Matrimonial website",description:"matrimonial web app offering profile viewing, advanced search filters, and a comprehensive admin page for secure matchmaking.",link:"https://matrimonial-client.onrender.com",linkName:"website Link"}
     ];
   return (
     <>
