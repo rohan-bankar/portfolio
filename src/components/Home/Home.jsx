@@ -51,6 +51,7 @@ function Home() {
                     <br /><br />
                     "skills": &#91; <br />
                         "Javascript",<br />
+                        "Java",<br/>
                         "CSS3",<br />
                         "HTML",<br />
                         "Node.js"<br />
